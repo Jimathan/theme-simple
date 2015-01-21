@@ -35,7 +35,7 @@
     })();
     </script>
     {% endif %}
-    <style>
+ <!--  <style>
         .categories ul {
         list-style: none;
         margin: 0;
@@ -60,7 +60,7 @@
         .categories a:active {
         background: #b33a22;
         }
-    </style> 
+    </style> -->
   </head>
   <body>
     <div class="rainbow"></div>
@@ -95,19 +95,19 @@
                     <li><a href="/tag/android" class="{{ set_active('/tag/android') }}">Android</a></li>
                 <!-- END Categories --> 
                 {% if site.tags %}
-                <nav class="categories">
-                    <h4>Categories</h4>
+                <nav class="Class">
+                    <h4>Class</h4>
                         <ul>
-                            <li><a href="/tag/design" class="{{ set_active('/tag/design') }}">Design</a></li>
-                            <li><a href="/tag/web" class="{{ set_active('/tag/web') }}">Web</a></li>
-                            <li><a href="/tag/ios" class="{{ set_active('/tag/ios') }}">iOS</a></li>
-                            <li><a href="/tag/android" class="{{ set_active('/tag/android') }}">Android</a></li>
+                            <li><a href="/tag/1-N" class="{{ set_active('/tag/1-N') }}">1-N</a></li>
+                            <li><a href="/tag/1-A" class="{{ set_active('/tag/1-A') }}">1-A</a></li>
+                            <li><a href="/tag/1-B" class="{{ set_active('/tag/1-B') }}">1-B</a></li>
+                            <li><a href="/tag/1-C" class="{{ set_active('/tag/1-C') }}">1-C</a></li>
                         </ul>
                 </nav>
                     <h4>Tags</h4>
                         <ul class="tags">
                             {% for tag in site.tags %}
-                            <li><a href="/tag/{{ tag.name }}">#{{ tag.name }}</a></li>
+                            <li><a href="/tag/{{ tag.name }}">{{ tag.name }}</a></li>
                             {% endfor %}
                         </ul>
                 {% endif %} 
