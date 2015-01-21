@@ -1373,6 +1373,10 @@ object {
   color: #707070;
 }
 /* Sidebar Widgets */
+.Sidebar {
+  float: right;
+}
+/*
 .widget {
   margin-bottom: 30px;
   margin-bottom: 1.875rem;
@@ -1436,7 +1440,7 @@ object {
   font-size: 14px;
   font-size: 0.75rem;
   border: 0;
-}
+}*/
 /* Footer */
 .site-footer {
   padding: 30px 0;
