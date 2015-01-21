@@ -1595,9 +1595,7 @@ object {
   float: right;
   text-align: right;
 }
-.post-tags {
-  margin: 30px 0 0;
-}
+.post-tags a,
 .post-content a {
   border-bottom: 1px dotted #363636;
 }
@@ -1921,54 +1919,4 @@ object {
   font-size: 10pt;
   line-height: 10pt;
   padding: 7px;
-}
-.widget {
-  margin-bottom: 30px;
-  margin-bottom: 1.875rem;
-  background: #ffffff;
-  padding: 0;
-  border-bottom: solid #d7d7d7;
-  border-bottom-width: 2px;
-  border-bottom-width: 0.125rem;
-}
-.widget ul {
-  list-style-type: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.widget ul > li {
-  padding: 7px 0;
-  margin: 0;
-  border-bottom: solid #d7d7d7;
-  border-bottom-width: 1px;
-  border-bottom-width: 0.0625rem;
-}
-.widget ul > li:last-child {
-  border: 0;
-}
-.widget-title {
-  padding: 15px;
-  padding: 0.9375rem;
-  font-weight: normal;
-  color: #252525;
-  background: #ffffff;
-  text-align: center;
-}
-.widget-title a {
-  color: inherit;
-}
-.widget-content {
-  margin: 0;
-  padding: 0 15px 15px;
-}
-.widget-about {
-  text-align: center;
-}
-.widget-about .avatar {
-  margin-bottom: 15px;
-  margin-bottom: 0.9375rem;
-}
-.widget-about ul li {
-  border: none;
 }
