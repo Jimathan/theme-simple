@@ -1595,7 +1595,9 @@ object {
   float: right;
   text-align: right;
 }
-.post-tags a,
+.post-tags {
+  margin: 30px 0 0;
+}
 .post-content a {
   border-bottom: 1px dotted #363636;
 }
@@ -1919,4 +1921,28 @@ object {
   font-size: 10pt;
   line-height: 10pt;
   padding: 7px;
+}
+.widget-tagcloud ul:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.widget-tagcloud ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.widget-tagcloud ul > li {
+  margin-right: 6px;
+  margin-right: 0.375rem;
+  margin-bottom: 6px;
+  margin-bottom: 0.375rem;
+  padding: 0;
+  float: left;
+  font-size: 12px;
+  font-size: 0.75rem;
+  border: 0;
 }
