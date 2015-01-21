@@ -1109,7 +1109,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #707070;
+  color: #f48282;
 }
 ul,
 ol {
@@ -1326,7 +1326,7 @@ object {
   width: 320px;
   width: 20rem;
   margin: 0 auto;
-  color: #898989;
+  color: #f48282;
   padding: 0 0 10px;
 }
 .site-header .site-bio a {
