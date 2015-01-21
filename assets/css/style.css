@@ -1260,7 +1260,7 @@ object {
   width: 100%;
   padding: 30px 0 10px;
   text-align: center;
-  background-color: #252525;
+  background-color: #9ee6c2;
 }
 .site-header:after {
   visibility: hidden;
@@ -1279,7 +1279,7 @@ object {
   color: #e1e1e1;
 }
 .site-header a:hover {
-  color: #a1a1a1;
+  color: #2b2b2b;
 }
 .site-header h1 {
   padding: 0 0 15px;
